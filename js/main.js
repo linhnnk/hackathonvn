@@ -2,13 +2,6 @@
 // $("#pageTitle").val("Lab 5 - DOM Manipulation with jQuery");
 
 $(document).ready(function () {
-
-    document.title = 'Lab 5 - DOM Manipulation with jQuery';
-    $("#pageTitle").val("Lab 5 - DOM Manipulation with jQuery");
-
-    var name = $("#msgArea").attr("class");
-    $("#msgArea").val("My class is " + name);
-
     $("button").css("background-color", "red");
 
     $("body").css("background-color", "ivory");
@@ -16,15 +9,7 @@ $(document).ready(function () {
     $(".center-icons").css("background-color", "yellow");
     $('.center-icon').addClass('selected');
 
-    $(".panel").click(function () {
-        $("#message").html("You clicked this panel");
-    });
-    $(".panel").mousemove(function (event) {
-        $("#message").html("x = " + event.pageX + ", y = " + event.pageY);
-    });
-    $(".panel").mouseleave(function () {
-        $("#message").html("The mouse has left.");
-    });
+    
     $("#panel-2").append("<img src='images/art/thumbs/13030.jpg'/>");
     
     $(".img-responsive").on("mouseover", function () {
