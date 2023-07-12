@@ -1,0 +1,7 @@
+.missinginput {
+    border:2px solid red;
+  }
+
+.nomissing {
+  border:2px solid black;
+}
