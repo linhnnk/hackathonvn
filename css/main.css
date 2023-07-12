@@ -9,7 +9,8 @@ h1{
   background-color: #cccccc;
 margin-top:0px;
 height: 10em;
-display:flex;
+text-align:center;
+
 }
 .selected {
      background-color: yellow;
@@ -117,3 +118,8 @@ footer{
 .panel { width: 200px; height: 200px; background-color: #CFD8DC; font-weight: bold; font-size: 20px;
     display: flex; align-items: center; justify-content: center; } 
 span#message { font-size: 20px; }
+
+.icon{
+  height: 3em;
+  width: 3em;
+}
