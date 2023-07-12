@@ -1,5 +1,16 @@
 /* styles for basic selector examples */
 
+h1{
+  font-family:'Courier New', Courier, monospace;
+  font-weight:bold;
+}
+.top-background{
+  background-image: url("background-gca19b586f_1920.jpg");
+  background-color: #cccccc;
+margin-top:0px;
+height: 10em;
+display:flex;
+}
 .selected {
      background-color: yellow;
 }
